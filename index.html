@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>T-POP</title>
+    <meta name="description" content="Resto">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar" class="static-layout">
+	<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	
+	<div class="sidenav-content">
+		<p>Home</p>
+        <p>The Billboard Project</p>
+        <p>Terms and conditions</p>
+        <p>Privacy policy</p>
+		<p>FAQ</p>
+		<p>23436107@life.hkbu.edu.hk</p>
+	</div>
+</div>	<div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
+
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </button>
+			  </div>
+			</div>
+
+		</form>
+	</div>
+	
+ 	
+</div>	<div id="canvas-overlay"></div>
+	<div class="boxed-page">
+		<nav id="navbar-header" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+            <img src="img/1.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between">
+                <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu"></span>
+                    </a>
+                </li>
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gtco-welcome">About T-POP</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Recommend
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#gtco-menu">Popular Singer</a>
+                          <a class="dropdown-item" href="#gtco-team">Top Songs</a>
+                          <a class="dropdown-item" href="#gtco-special-dishes">Hot MVs</a>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+            
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                <img src="img/1.png" alt="">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Awards
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://x.com/theguitar_mag?s=21&t=9TYKdWQU7ubQuO-5BbN_Sw">The Guitar Mag</a>
+                          <a class="dropdown-item" href="https://x.com/stagetpop?s=21&t=9TYKdWQU7ubQuO-5BbN_Sw">Toty Music Awards</a>
+                          <a class="dropdown-item" href="https://x.com/jooxth?s=21&t=9TYKdWQU7ubQuO-5BbN_Sw">Joox Thailand Music</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Music Radio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://x.com/flex_connect?s=21&t=9TYKdWQU7ubQuO-5BbN_Sw">Flex Connent</a>
+                          <a class="dropdown-item" href="https://x.com/efm_station?s=21&t=9TYKdWQU7ubQuO-5BbN_Sw">EFM</a>
+                          <a class="dropdown-item" href="https://x.com/greenwave1065?s=21&t=9TYKdWQU7ubQuO-5BbN_Sw">Green Wave</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Performance Ticket
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="https://www.theconcert.com/">The Concert</a>
+                          <a class="dropdown-item" href="https://www.thaiticketmajor.com/index.html">Thaiticketmajor</a>
+                          <a class="dropdown-item" href="https://www.ticketmelon.com/">Ticketmelon</a>
+                        </div>
+                    </li>
+                </div>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+		<!-- Banner Section-->
+<section id="gtco-testimonial" class="overlay bg-fixed section-padding" style="background-image: url(img/banner.jpg);">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <h2>
+                    T-POP Music
+                </h2>
+            </div>
+            <div class="row">
+                <!-- Testimonial -->
+                <div class="testi-content testi-carousel owl-carousel">
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">Let the rhythm guide your soul and the melody paint your dreams. Explore a world of emotions through the power of music.</p>
+                        <p class="testi-author">MUSIC</p>
+                    </div>
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">Immerse yourself in the vibrant sounds of Thailand, where traditional melodies blend seamlessly with modern beats, creating a musical tapestry that reflects the rich cultural heritage of the Land of Smiles.</p>
+                        <p class="testi-author">T-POP MUSIC</p>
+                    </div>
+                </div>
+                <!-- End -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End -->		
+<div class="hero">
+  <div class="container">
+	<div class="row d-flex align-items-center">
+		<div class="col-lg-6 hero-left">
+		    <h1 class="display-4 mb-5">T-POP Music</h1>
+                <p>In recent years, Thai pop has gradually moved onto the world stage. Through this page, we hope you can have a better understanding of Thai pop music!</p>
+
+		    <div class="mb-2">
+		    	<a class="btn btn-primary btn-shadow btn-lg" href="#" role="button">Get Started</a>
+		    </div>
+		   
+		    <div class="hero-info list-unstyled d-flex text-center mb-0">
+		    	<a href="#gtco-menu">
+                    <li class="border-right">
+		    		    <span class="lnr lnr-users"></span>
+		    		    <h5>
+		    			    Singers
+		    		    </h5>
+                    </li>
+		    	</a>
+		    	<a href="#gtco-team">
+                    <li class="border-right">
+		    		    <span class="lnr lnr-music-note"></span>
+		    		    <h5>
+		    			    Singles
+		    		    </h5>
+                    </li>
+		    	</a>
+		    	<a href="#gtco-special-dishes">
+                    <li class="border-right">
+		    		    <span class="lnr lnr-film-play"></span>
+		    		    <h5>
+		    			    Music Vedio
+		    		    </h5>
+                    </li>
+		    	</a>
+		    	<a href="#gtco-team2">
+                    <li class="border-right">
+		    		    <span class="lnr lnr-license"></span>
+		    		    <h5>
+		    			    Awards
+		    		    </h5>
+                    </li>
+		    	</a>
+		    </div>
+
+	    </div>
+	    <div class="col-lg-6 hero-right">
+	    	<div class="owl-carousel owl-theme hero-carousel">
+			    <img class="img-fluid" src="img/logo.jpg" alt="">
+			</div>
+	    </div>
+	</div>
+  </div>
+</div>		<!-- Welcome Section -->
+<section id="gtco-welcome" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2" style="background-image: url(img/T-pop.jpg);">                   
+                </div>
+                <div class="col-sm-7 py-5 pl-md-0 pl-4">
+                    <div class="heading-section pl-lg-5 ml-md-5">
+                        <span class="subheading">
+                            About
+                        </span>
+                        <h2>
+                            T-POP
+                        </h2>
+                    </div>
+                    <div class="pl-lg-5 ml-md-5">
+                        <p>Thai pop, also known as T-pop, is a type of Thai music that is roughly equivalent to western pop. It first emerged in the 1970s and 1980s as string music (Thai: ), before gaining mainstream popularity in the 1990s and dominating the Thai music industry ever since. The term is extremely broad, encompassing Thai rock, dance music, rap, and western-influenced popular music in general, excluding folk and rock-influenced phleng phuea chiwit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Welcome Section -->		<!-- Artist Section -->
+<section id="gtco-menu" class="section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div class="heading-section text-center">
+                        <span class="subheading">
+                            Artist Recommendation
+                        </span>
+                        <h2>
+                            Popular Singers
+                        </h2>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Male Singers</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/billkin.jpeg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <a href="https://www.instagram.com/bbillkin/">
+                                        <h4>Billkin</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Putthipong Assaratanakul<br>พุฒิพงศ์ อัสสรัตนกุล</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/pp.jpeg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <a href="https://www.instagram.com/pp.kritt/">
+                                        <h4>PP Krit</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Krit Amnuaydechkorn<br>กฤษฏ์ อำนวยเดชกร</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/nont.jpeg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <a href="https://www.instagram.com/tanont916/">
+                                        <h4>Nont</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Tanont Chumroen<br>นนท์ ธนนท์ จำเริญ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Groups</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/bus.jpeg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <a href="https://www.instagram.com/bus.becauseofyouishine/">
+                                        <h4>BUS</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>A Thai boy group formed through the 789 SURVIVAL</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/pixxie.jpeg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <a href="https://www.instagram.com/pixxie_official/">
+                                        <h4>PiXXiE</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>A Thai girl group formed by LIT ENtertainment</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/4eve.jpeg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <a href="https://www.instagram.com/4eve_official/">
+                                        <h4>4EVE</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>A Thai girl group formed in Bangkok in 2020</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Female Singers</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/bowky.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <a href="https://www.instagram.com/bowkylion/">
+                                        <h4>BOWKYLION</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Bowky<br>โบกี้ไลอ้อน</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/ink.jpeg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <a href="https://www.instagram.com/inkwaruntorn/">
+                                        <h4>Ink</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Waruntorn Paonil<br>วรันธร เปานิล</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/zom.jpeg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <a href="https://www.instagram.com/zommarie/">
+                                        <h4>Zom</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>Zom Marie<br>ส้ม มารี</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End -->		   <!-- Songs Section -->
+<section id="gtco-team" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Single Recommendation
+                </span>
+                <h2>
+                    Top 6 Singles of the Week
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/สวยงามเสมอ.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">สวยงามเสมอ</h4>
+                            <p class="mb-1">Billkin</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="https://music.apple.com/cn/album/%E0%B8%AA%E0%B8%A7%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%AD-from-%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%99%E0%B8%A1-%E0%B8%B2/1736445563?i=1736445566">
+                                        <i class="fab fa-itunes"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://open.spotify.com/album/2NLjV6ULahC8NVfjWSlsOv?si=9sodeaTfTB25_aoTs0fwTA">
+                                        <i class="fab fa-spotify"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://music.youtube.com/watch?v=T-YgQ4JrcQ8&si=cGmrQ9u23RJg7r8X">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://y.qq.com/n/ryqq/songDetail/001EVShf4PnGCt">
+                                        <i class="fab fa-qq"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/โต๊ะริม.jpeg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">โต๊ะริม</h4>
+                            <p class="mb-1">Nont</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="https://music.apple.com/cn/album/%E0%B9%82%E0%B8%95-%E0%B8%B0%E0%B8%A3-%E0%B8%A1-melt/1622714191?i=1622714542">
+                                        <i class="fab fa-itunes"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://open.spotify.com/track/1WxjAWMYO1niMIB5ascmvG?si=OulnNKh0ReqloABDoteSZQ">
+                                        <i class="fab fa-spotify"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://music.youtube.com/watch?v=DCPCvD32RQg&si=Rk4YcvHgFzkB72SI">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://y.qq.com/n/ryqq/singer/004OkaBe2ro4Im">
+                                        <i class="fab fa-qq"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/ไม่ได้ก็ไม่เอา.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">ไม่ได้ก็ไม่เอา</h4>
+                            <p class="mb-1">PiXXiE</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="https://music.apple.com/cn/album/%E0%B9%84%E0%B8%A1-%E0%B9%84%E0%B8%94-%E0%B8%81-%E0%B9%84%E0%B8%A1-%E0%B9%80%E0%B8%AD%E0%B8%B2/1707369216?i=1707369471">
+                                        <i class="fab fa-itunes"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://open.spotify.com/track/1UxVMaHEm6UJxGOg4ixSZO?si=d9c81bea83cb460d">
+                                        <i class="fab fa-spotify"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://music.youtube.com/watch?v=EbLzuwJPPlo&si=hVqWpDhaLL_vQsXo">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://y.qq.com/n/ryqq/singer/0020V97E1CSiq7">
+                                        <i class="fab fa-qq"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/ลังเล.jpeg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">ลังเล</h4>
+                            <p class="mb-1">PP Krit</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="https://music.apple.com/cn/album/%E0%B8%A5-%E0%B8%87%E0%B9%80%E0%B8%A5/1670991609?i=1670991611">
+                                        <i class="fab fa-itunes"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://open.spotify.com/track/592XwpszQAW8olTXXIesls?si=1693b2347a1c43fe">
+                                        <i class="fab fa-spotify"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://music.youtube.com/watch?v=S5umLFbT2tg&si=VStrY4X-niavZRf6">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://y.qq.com/n/ryqq/songDetail/001v65qt2GW39C">
+                                        <i class="fab fa-qq"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/สายตาหลอกกันไม่ได้.jpeg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">สายตาหลอกกันไม่ได้</h4>
+                            <p class="mb-1">Ink</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="https://music.apple.com/cn/album/%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%95%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%AD%E0%B8%81%E0%B8%81-%E0%B8%99%E0%B9%84%E0%B8%A1-%E0%B9%84%E0%B8%94-eyes-dont-lie/1554077105?i=1554077826">
+                                        <i class="fab fa-itunes"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://open.spotify.com/track/3Rkt2LzmQkW2yzSM0NAZgT?si=ffab656825f542da">
+                                        <i class="fab fa-spotify"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://music.youtube.com/watch?v=VVsEEtFrgnM&si=RPavhl1-9V0G0ZsY">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://y.qq.com/n/ryqq/singer/002Exda20H7TeY">
+                                        <i class="fab fa-qq"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/ฟีลลิ่งแบบว่าอู้วว!.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">ฟีลลิ่งแบบว่าอู้วว!</h4>
+                            <p class="mb-1">BUS</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="https://music.apple.com/cn/album/%E0%B8%9F-%E0%B8%A5%E0%B8%A5-%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%A7-%E0%B8%B2%E0%B8%AD-%E0%B8%A7%E0%B8%A7/1734938435?i=1734938440">
+                                        <i class="fab fa-itunes"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://open.spotify.com/track/330spX93u5K5XINCCJzko3?si=cfbb336512614070">
+                                        <i class="fab fa-spotify"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://music.youtube.com/watch?v=ahP_G-snC2w&si=Py_8EulY_KX2Z7Gs">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://y.qq.com/n/ryqq/singer/0044lwzs3PNQqq">
+                                        <i class="fab fa-qq"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End -->		<!-- MV Section -->
+<section id="gtco-special-dishes" class="bg-grey section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    MV Recommendation
+                </span>
+                <h2>
+                    Hot MVs of the Week
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">01.</h2>
+                    <div class="dishes-text">
+                        <h3><span>เสนอตัว(Ooh!)</span><br> PP Krit </h3>
+                        <p class="pt-3">"The fallen angels, because they met their true love on earth, were willing to give up all their divine powers and ask to be his one and only." With a dynamic beat and catchy lyrics, this is a typical pop track.</p>
+                        <a href="https://www.youtube.com/watch?v=JxF8xuqK_jY" class="btn-primary mt-3">Play</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/ooh.jpeg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/gaogai.jpeg" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">02.</h2>
+                    <div class="dishes-text">
+                        <h3><span>ก้าวก่าย(Intervention)</span><br>Billkin</h3>
+                        <p class="pt-3">"It's over. I gotta go. No doubt I have no right to ask if you're okay. It's over, it's really over this time, even though it's been so long, I still can't really forget you in my heart". The classic and pleasant rnb melody tells the sad memories that only belong to one person.</p>
+                        <a href="https://www.youtube.com/watch?v=zU7TCKajHQ8" class="btn-primary mt-3">Play <span><i class="fa fa-long-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">03.</h2>
+                    <div class="dishes-text">
+                        <h3><span>วาดไว้ (Recall)</span><br> BOWKYLION </h3>
+                        <p class="pt-3">Here's a song bowky sent to his mother. "We've come a long way as of today, I hope she knows that it doesn't matter where we part. You didn't stay in this world, but you'll always be in my heart."</p>
+                        <a href="https://www.youtube.com/watch?v=a0M_QUS3kC0" class="btn-primary mt-3">Play</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/recall.jpeg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End -->		   <!-- Awards Section -->
+<section id="gtco-team2" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Awards
+                </span>
+                <h2>
+                    Latest Award Ceremony
+                </h2>
+            </div>
+            <div style="text-align: center;">
+                <iframe width="730" height="411" src="https://www.youtube.com/embed/twjsiu2fOvE" title="[LIVE] งานประกาศรางวัล PEPSI Presents TOTY Music Awards 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End -->		   <footer class="mastfoot pb-5 bg-white section-padding pb-0">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-md-12 d-flex align-items-center">
+         		<p class="mx-auto text-center mb-0">T-POP Design by <a href="#">ZHANG Jiaqi</a><br>2024.03 HK</p>
+         	</div>          
+        </div>
+    </div>
+</footer>	</div>
+</div>
+	<!-- External JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+</body>
+</html>
